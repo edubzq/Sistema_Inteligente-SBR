@@ -1,0 +1,32 @@
+Fichero de salida.
+Nombre de la BC: BC
+Nombre de la BH: BH
+Objetivo: h1
+CASO-3: Regla: (h4 con tipo: N)-->h1
+	FC: 1 * max(0, 0.6)
+ = 0.6
+CASO-3: Regla: (h7 con tipo: N)-->h3
+	FC: -0.5 * max(0, 0.5)
+ = -0.25
+CASO-1: Regla: (h5 h6 con tipo: Y)-->h3
+	min(0.9 0.3 )
+Resultado: 0.3
+CASO-3: Regla: (h5 h6 con tipo: Y)-->h3
+	FC: 0.7 * max(0, 0.3)
+ = 0.21
+CASO-2:
+ 	Regla: (h5 h6 con tipo: Y)-->h3
+	Regla: (h7 con tipo: N)-->h3
+	Resultado del Calculo: -0.0506329
+CASO-1: Regla: (h2 h3 con tipo: O)-->h1
+	max(-0.0506329 0.6 )
+Resultado: 0.6
+CASO-3: Regla: (h2 h3 con tipo: O)-->h1
+	FC: 0.5 * max(0, 0.6)
+ = 0.3
+CASO-2:
+ 	Regla: (h2 h3 con tipo: O)-->h1
+	Regla: (h4 con tipo: N)-->h1
+	Resultado del Calculo: 0.72
+
+FC Meta:0.72

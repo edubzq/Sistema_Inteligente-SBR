@@ -1,0 +1,10 @@
+7
+Joven, FC=1
+Activo, FC=1
+Mordido, FC=0.5
+Medicina, FC=0.8
+Armado, FC=1
+Solo, FC=0
+Vehiculo, FC=0.5
+Objetivo
+Supervivencia

@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1687522918 source:c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\bcclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	"bcClass.h"
+
+1649951505 c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\bcclass.h
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	<map>
+	<vector>
+	"bhClass.h"
+
+1649951505 c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\bhclass.h
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	<map>
+
+1687522955 source:c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\bhclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	"bhClass.h"
+
+1687523023 source:c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\main.cpp
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	"bhClass.h"
+	"bcClass.h"
+	"AlgoritmoSBR.h"
+
+1687521698 c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\algoritmosbr.h
+	"bcClass.h"
+	"bhClass.h"
+	<iostream>
+
+1687523079 source:c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\reglaclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	<vector>
+	"bcClass.h"
+
+1687522881 source:c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\algoritmosbr.cpp
+	"bhClass.h"
+	"bcClass.h"
+	<string>
+	<map>
+	<vector>
+	<iostream>
+
+1649951505 source:c:\users\eduar\desktop\3º informatica\ssii\practica_2\p2-sbr\bcclase.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	"bcClass.h"
+
+1702830033 source:c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\algoritmosbr.cpp
+	"bhClass.h"
+	"bcClass.h"
+	<string>
+	<map>
+	<vector>
+	<iostream>
+
+1702835794 c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\bhclass.h
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	<map>
+
+1702830107 c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\bcclass.h
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	<map>
+	<vector>
+	"bhClass.h"
+
+1702830039 source:c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\bcclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	"bcClass.h"
+
+1702830053 source:c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\bhclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	"bhClass.h"
+
+1702830064 source:c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\main.cpp
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	"bhClass.h"
+	"bcClass.h"
+	"AlgoritmoSBR.h"
+
+1702830089 c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\algoritmosbr.h
+	"bcClass.h"
+	"bhClass.h"
+	<iostream>
+
+1702830078 source:c:\users\eduar\escritorio\practica2-ssii\codigo\p2-sbr\reglaclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	<vector>
+	"bcClass.h"
+

@@ -1,0 +1,38 @@
+Fichero de salida.
+Nombre de la BC: BC-A
+Nombre de la BH: BH-A
+Objetivo: Supervivencia
+CASO-1: Regla: (Mordido Medicina con tipo: Y)-->Enfermo
+	min(0.8 0.5 )
+Resultado: 0.5
+CASO-3: Regla: (Mordido Medicina con tipo: Y)-->Enfermo
+	FC: 0.6 * max(0, 0.5)
+ = 0.3
+CASO-3: Regla: (Enfermo con tipo: N)-->Supervivencia
+	FC: -0.5 * max(0, 0.3)
+ = -0.15
+CASO-1: Regla: (Vehiculo Armado con tipo: Y)-->Abastecido
+	min(1 0.5 )
+Resultado: 0.5
+CASO-3: Regla: (Vehiculo Armado con tipo: Y)-->Abastecido
+	FC: 0.8 * max(0, 0.5)
+ = 0.4
+CASO-3: Regla: (Abastecido con tipo: N)-->Supervivencia
+	FC: 0.7 * max(0, 0.4)
+ = 0.28
+CASO-1: Regla: (Joven Activo con tipo: Y)-->Fuerte
+	min(1 1 )
+Resultado: 1
+CASO-3: Regla: (Joven Activo con tipo: Y)-->Fuerte
+	FC: 0.8 * max(0, 1)
+ = 0.8
+CASO-3: Regla: (Fuerte con tipo: N)-->Supervivencia
+	FC: 0.7 * max(0, 0.8)
+ = 0.56
+CASO-2:
+ 	Regla: (Fuerte con tipo: N)-->Supervivencia
+	Regla: (Abastecido con tipo: N)-->Supervivencia
+	Regla: (Enfermo con tipo: N)-->Supervivencia
+	Resultado del Calculo: 0.627294
+
+FC Meta:0.627294

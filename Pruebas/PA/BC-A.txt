@@ -1,0 +1,8 @@
+6
+R1: Si Joven y Activo Entonces Fuerte, FC=0.8
+R2: Si Vehiculo y Armado Entonces Abastecido, FC=0.8
+R3: Si Fuerte Entonces Supervivencia, FC=0.7
+R4: Si Abastecido Entonces Supervivencia, FC=0.7
+R5: Si Mordido y Medicina Entonces Enfermo, FC=0.6
+R6: Si Enfermo Entonces Supervivencia, FC=-0.5
+R7: Si Solo Entonces Supervivencia, FC=-0.4
